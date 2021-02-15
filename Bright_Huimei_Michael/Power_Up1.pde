@@ -205,7 +205,7 @@ if (pw2==true)
   //powerups for the first bird
   if (pw==false) 
   {
-    type = (int)random (2, 2); 
+    type = (int)random (0, z); 
     println (type);
     if (type==0)
     {  
